@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8416E11E2C4016BB00A07598 /* codemagic.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 8416E11D2C4016BB00A07598 /* codemagic.yaml */; };
+		847137A12C2AFAE900CC59E1 /* ModeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847137A02C2AFAE900CC59E1 /* ModeVC.swift */; };
+		84857D7A2C2D9BBA00AB9076 /* DifficultyLevelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84857D792C2D9BBA00AB9076 /* DifficultyLevelVC.swift */; };
+		84857D962C32CB3400AB9076 /* ShellGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84857D952C32CB3400AB9076 /* ShellGameVC.swift */; };
+		84857D982C32FF9D00AB9076 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84857D972C32FF9D00AB9076 /* OverlayView.swift */; };
+		84ABF2D52C21760100E40FE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABF2D42C21760100E40FE7 /* AppDelegate.swift */; };
+		84ABF2D72C21760100E40FE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABF2D62C21760100E40FE7 /* SceneDelegate.swift */; };
+		84ABF2D92C21760100E40FE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABF2D82C21760100E40FE7 /* ViewController.swift */; };
+		84ABF2DC2C21760100E40FE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ABF2DA2C21760100E40FE7 /* Main.storyboard */; };
+		84ABF2DE2C21760400E40FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ABF2DD2C21760400E40FE7 /* Assets.xcassets */; };
+		84ABF2E12C21760400E40FE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ABF2DF2C21760400E40FE7 /* LaunchScreen.storyboard */; };
+		84ABF2EA2C21772B00E40FE7 /* BellyGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABF2E92C21772B00E40FE7 /* BellyGameController.swift */; };
+		84ABF2F12C219E0400E40FE7 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABF2F02C219E0400E40FE7 /* ButtonCell.swift */; };
+		84ABF2F32C21B93000E40FE7 /* MainMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABF2F22C21B93000E40FE7 /* MainMenuVC.swift */; };
+		84ABF2FE2C2308CC00E40FE7 /* WheelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABF2FD2C2308CC00E40FE7 /* WheelViewController.swift */; };
+		84ABF3002C25602000E40FE7 /* CamMaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABF2FF2C25602000E40FE7 /* CamMaskVC.swift */; };
+		84BD7FC72C298BD500BBB58D /* Vibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD7FC62C298BD500BBB58D /* Vibration.swift */; };
+		84BD7FC92C299A3A00BBB58D /* ShopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD7FC82C299A3A00BBB58D /* ShopVC.swift */; };
+		84BD7FCB2C2AE48900BBB58D /* BellyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD7FCA2C2AE48900BBB58D /* BellyManager.swift */; };
+		84BD7FCE2C2AE62000BBB58D /* LilitaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84BD7FCD2C2AE62000BBB58D /* LilitaOne-Regular.ttf */; };
+		84BD7FD02C2AE91700BBB58D /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84BD7FCF2C2AE91700BBB58D /* background.mp3 */; };
+		84BD7FD22C2AE94100BBB58D /* MusicHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD7FD12C2AE94100BBB58D /* MusicHelper.swift */; };
+		84BD7FD42C2AE9FA00BBB58D /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD7FD32C2AE9FA00BBB58D /* SettingsVC.swift */; };
+		84C05CD82C2C9EE300DD28A4 /* TextVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C05CD72C2C9EE300DD28A4 /* TextVC.swift */; };
+		84C6DACC2C2B48BA0099CA22 /* InfiniteGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6DACB2C2B48BA0099CA22 /* InfiniteGame.swift */; };
+		A32B9D1BA7B38708FCD027FC /* Pods_GreatBellyfortune.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D649C3F0287FFD5099CBF0E /* Pods_GreatBellyfortune.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41D8B8789385A3AB4DA52467 /* Pods-GreatBellyfortune.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreatBellyfortune.release.xcconfig"; path = "Target Support Files/Pods-GreatBellyfortune/Pods-GreatBellyfortune.release.xcconfig"; sourceTree = "<group>"; };
+		8416E11D2C4016BB00A07598 /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
+		847137A02C2AFAE900CC59E1 /* ModeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeVC.swift; sourceTree = "<group>"; };
+		84857D792C2D9BBA00AB9076 /* DifficultyLevelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyLevelVC.swift; sourceTree = "<group>"; };
+		84857D952C32CB3400AB9076 /* ShellGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellGameVC.swift; sourceTree = "<group>"; };
+		84857D972C32FF9D00AB9076 /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		84ABF2D12C21760100E40FE7 /* GreatBellyfortune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreatBellyfortune.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84ABF2D42C21760100E40FE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84ABF2D62C21760100E40FE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84ABF2D82C21760100E40FE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84ABF2DB2C21760100E40FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84ABF2DD2C21760400E40FE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84ABF2E02C21760400E40FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84ABF2E22C21760400E40FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84ABF2E92C21772B00E40FE7 /* BellyGameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellyGameController.swift; sourceTree = "<group>"; };
+		84ABF2F02C219E0400E40FE7 /* ButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
+		84ABF2F22C21B93000E40FE7 /* MainMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuVC.swift; sourceTree = "<group>"; };
+		84ABF2FD2C2308CC00E40FE7 /* WheelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelViewController.swift; sourceTree = "<group>"; };
+		84ABF2FF2C25602000E40FE7 /* CamMaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamMaskVC.swift; sourceTree = "<group>"; };
+		84BD7FC62C298BD500BBB58D /* Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibration.swift; sourceTree = "<group>"; };
+		84BD7FC82C299A3A00BBB58D /* ShopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopVC.swift; sourceTree = "<group>"; };
+		84BD7FCA2C2AE48900BBB58D /* BellyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellyManager.swift; sourceTree = "<group>"; };
+		84BD7FCD2C2AE62000BBB58D /* LilitaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LilitaOne-Regular.ttf"; sourceTree = "<group>"; };
+		84BD7FCF2C2AE91700BBB58D /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
+		84BD7FD12C2AE94100BBB58D /* MusicHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicHelper.swift; sourceTree = "<group>"; };
+		84BD7FD32C2AE9FA00BBB58D /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		84C05CD72C2C9EE300DD28A4 /* TextVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextVC.swift; sourceTree = "<group>"; };
+		84C6DACB2C2B48BA0099CA22 /* InfiniteGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteGame.swift; sourceTree = "<group>"; };
+		8D649C3F0287FFD5099CBF0E /* Pods_GreatBellyfortune.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreatBellyfortune.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D571C129C06A1E07A7FE6A58 /* Pods-GreatBellyfortune.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreatBellyfortune.debug.xcconfig"; path = "Target Support Files/Pods-GreatBellyfortune/Pods-GreatBellyfortune.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84ABF2CE2C21760100E40FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32B9D1BA7B38708FCD027FC /* Pods_GreatBellyfortune.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		120FE28C56440DEA500B4201 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D649C3F0287FFD5099CBF0E /* Pods_GreatBellyfortune.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84ABF2C82C21760100E40FE7 = {
+			isa = PBXGroup;
+			children = (
+				8416E11D2C4016BB00A07598 /* codemagic.yaml */,
+				84ABF2D32C21760100E40FE7 /* GreatBellyfortune */,
+				84ABF2D22C21760100E40FE7 /* Products */,
+				C9ABB17FA69F9D8B20104BDE /* Pods */,
+				120FE28C56440DEA500B4201 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84ABF2D22C21760100E40FE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84ABF2D12C21760100E40FE7 /* GreatBellyfortune.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84ABF2D32C21760100E40FE7 /* GreatBellyfortune */ = {
+			isa = PBXGroup;
+			children = (
+				84BD7FCF2C2AE91700BBB58D /* background.mp3 */,
+				84BD7FCC2C2AE61400BBB58D /* Fonts */,
+				84ABF2E82C2176FE00E40FE7 /* Controllers */,
+				84ABF2D42C21760100E40FE7 /* AppDelegate.swift */,
+				84ABF2D62C21760100E40FE7 /* SceneDelegate.swift */,
+				84ABF2D82C21760100E40FE7 /* ViewController.swift */,
+				84ABF2DA2C21760100E40FE7 /* Main.storyboard */,
+				84ABF2DD2C21760400E40FE7 /* Assets.xcassets */,
+				84ABF2DF2C21760400E40FE7 /* LaunchScreen.storyboard */,
+				84ABF2E22C21760400E40FE7 /* Info.plist */,
+				84BD7FC62C298BD500BBB58D /* Vibration.swift */,
+				84BD7FCA2C2AE48900BBB58D /* BellyManager.swift */,
+				84BD7FD12C2AE94100BBB58D /* MusicHelper.swift */,
+				84857D972C32FF9D00AB9076 /* OverlayView.swift */,
+			);
+			path = GreatBellyfortune;
+			sourceTree = "<group>";
+		};
+		84ABF2E82C2176FE00E40FE7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84ABF2E92C21772B00E40FE7 /* BellyGameController.swift */,
+				84ABF2F02C219E0400E40FE7 /* ButtonCell.swift */,
+				84ABF2F22C21B93000E40FE7 /* MainMenuVC.swift */,
+				84ABF2FD2C2308CC00E40FE7 /* WheelViewController.swift */,
+				84ABF2FF2C25602000E40FE7 /* CamMaskVC.swift */,
+				84BD7FC82C299A3A00BBB58D /* ShopVC.swift */,
+				84BD7FD32C2AE9FA00BBB58D /* SettingsVC.swift */,
+				847137A02C2AFAE900CC59E1 /* ModeVC.swift */,
+				84C6DACB2C2B48BA0099CA22 /* InfiniteGame.swift */,
+				84C05CD72C2C9EE300DD28A4 /* TextVC.swift */,
+				84857D792C2D9BBA00AB9076 /* DifficultyLevelVC.swift */,
+				84857D952C32CB3400AB9076 /* ShellGameVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84BD7FCC2C2AE61400BBB58D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				84BD7FCD2C2AE62000BBB58D /* LilitaOne-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C9ABB17FA69F9D8B20104BDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D571C129C06A1E07A7FE6A58 /* Pods-GreatBellyfortune.debug.xcconfig */,
+				41D8B8789385A3AB4DA52467 /* Pods-GreatBellyfortune.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84ABF2D02C21760100E40FE7 /* GreatBellyfortune */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84ABF2E52C21760400E40FE7 /* Build configuration list for PBXNativeTarget "GreatBellyfortune" */;
+			buildPhases = (
+				E8A09B2E5DC7EA6C9A4F9F99 /* [CP] Check Pods Manifest.lock */,
+				84ABF2CD2C21760100E40FE7 /* Sources */,
+				84ABF2CE2C21760100E40FE7 /* Frameworks */,
+				84ABF2CF2C21760100E40FE7 /* Resources */,
+				3D4F7703417D620439C0A54B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreatBellyfortune;
+			productName = GreatBellyfortune;
+			productReference = 84ABF2D12C21760100E40FE7 /* GreatBellyfortune.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84ABF2C92C21760100E40FE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					84ABF2D02C21760100E40FE7 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 84ABF2CC2C21760100E40FE7 /* Build configuration list for PBXProject "GreatBellyfortune" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84ABF2C82C21760100E40FE7;
+			productRefGroup = 84ABF2D22C21760100E40FE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84ABF2D02C21760100E40FE7 /* GreatBellyfortune */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84ABF2CF2C21760100E40FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84ABF2E12C21760400E40FE7 /* LaunchScreen.storyboard in Resources */,
+				84BD7FCE2C2AE62000BBB58D /* LilitaOne-Regular.ttf in Resources */,
+				84ABF2DE2C21760400E40FE7 /* Assets.xcassets in Resources */,
+				8416E11E2C4016BB00A07598 /* codemagic.yaml in Resources */,
+				84BD7FD02C2AE91700BBB58D /* background.mp3 in Resources */,
+				84ABF2DC2C21760100E40FE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D4F7703417D620439C0A54B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GreatBellyfortune/Pods-GreatBellyfortune-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GreatBellyfortune/Pods-GreatBellyfortune-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GreatBellyfortune/Pods-GreatBellyfortune-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8A09B2E5DC7EA6C9A4F9F99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GreatBellyfortune-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84ABF2CD2C21760100E40FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BD7FD42C2AE9FA00BBB58D /* SettingsVC.swift in Sources */,
+				84ABF2FE2C2308CC00E40FE7 /* WheelViewController.swift in Sources */,
+				84BD7FC72C298BD500BBB58D /* Vibration.swift in Sources */,
+				84BD7FCB2C2AE48900BBB58D /* BellyManager.swift in Sources */,
+				84857D982C32FF9D00AB9076 /* OverlayView.swift in Sources */,
+				84ABF2D92C21760100E40FE7 /* ViewController.swift in Sources */,
+				84C05CD82C2C9EE300DD28A4 /* TextVC.swift in Sources */,
+				847137A12C2AFAE900CC59E1 /* ModeVC.swift in Sources */,
+				84857D962C32CB3400AB9076 /* ShellGameVC.swift in Sources */,
+				84ABF2D52C21760100E40FE7 /* AppDelegate.swift in Sources */,
+				84BD7FC92C299A3A00BBB58D /* ShopVC.swift in Sources */,
+				84ABF2F32C21B93000E40FE7 /* MainMenuVC.swift in Sources */,
+				84ABF2EA2C21772B00E40FE7 /* BellyGameController.swift in Sources */,
+				84C6DACC2C2B48BA0099CA22 /* InfiniteGame.swift in Sources */,
+				84ABF3002C25602000E40FE7 /* CamMaskVC.swift in Sources */,
+				84BD7FD22C2AE94100BBB58D /* MusicHelper.swift in Sources */,
+				84857D7A2C2D9BBA00AB9076 /* DifficultyLevelVC.swift in Sources */,
+				84ABF2F12C219E0400E40FE7 /* ButtonCell.swift in Sources */,
+				84ABF2D72C21760100E40FE7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84ABF2DA2C21760100E40FE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84ABF2DB2C21760100E40FE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84ABF2DF2C21760400E40FE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84ABF2E02C21760400E40FE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84ABF2E32C21760400E40FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84ABF2E42C21760400E40FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84ABF2E62C21760400E40FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D571C129C06A1E07A7FE6A58 /* Pods-GreatBellyfortune.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R4JNXS3X7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GreatBellyfortune/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tiger Cards Magic";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow to create photo with mask";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow to save mask photo";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = magic.cards.game;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84ABF2E72C21760400E40FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41D8B8789385A3AB4DA52467 /* Pods-GreatBellyfortune.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R4JNXS3X7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GreatBellyfortune/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tiger Cards Magic";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow to create photo with mask";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow to save mask photo";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = magic.cards.game;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84ABF2CC2C21760100E40FE7 /* Build configuration list for PBXProject "GreatBellyfortune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84ABF2E32C21760400E40FE7 /* Debug */,
+				84ABF2E42C21760400E40FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84ABF2E52C21760400E40FE7 /* Build configuration list for PBXNativeTarget "GreatBellyfortune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84ABF2E62C21760400E40FE7 /* Debug */,
+				84ABF2E72C21760400E40FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84ABF2C92C21760100E40FE7 /* Project object */;
+}

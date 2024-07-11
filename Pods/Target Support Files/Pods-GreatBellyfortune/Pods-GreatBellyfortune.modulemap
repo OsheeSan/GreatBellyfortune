@@ -1,0 +1,6 @@
+framework module Pods_GreatBellyfortune {
+  umbrella header "Pods-GreatBellyfortune-umbrella.h"
+
+  export *
+  module * { export * }
+}
