@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8416E11E2C4016BB00A07598 /* codemagic.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 8416E11D2C4016BB00A07598 /* codemagic.yaml */; };
+		8416E1202C4019E000A07598 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 8416E11F2C4019E000A07598 /* PrivacyInfo.xcprivacy */; };
 		847137A12C2AFAE900CC59E1 /* ModeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847137A02C2AFAE900CC59E1 /* ModeVC.swift */; };
 		84857D7A2C2D9BBA00AB9076 /* DifficultyLevelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84857D792C2D9BBA00AB9076 /* DifficultyLevelVC.swift */; };
 		84857D962C32CB3400AB9076 /* ShellGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84857D952C32CB3400AB9076 /* ShellGameVC.swift */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		41D8B8789385A3AB4DA52467 /* Pods-GreatBellyfortune.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreatBellyfortune.release.xcconfig"; path = "Target Support Files/Pods-GreatBellyfortune/Pods-GreatBellyfortune.release.xcconfig"; sourceTree = "<group>"; };
 		8416E11D2C4016BB00A07598 /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
+		8416E11F2C4019E000A07598 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		847137A02C2AFAE900CC59E1 /* ModeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeVC.swift; sourceTree = "<group>"; };
 		84857D792C2D9BBA00AB9076 /* DifficultyLevelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyLevelVC.swift; sourceTree = "<group>"; };
 		84857D952C32CB3400AB9076 /* ShellGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellGameVC.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				84BD7FCA2C2AE48900BBB58D /* BellyManager.swift */,
 				84BD7FD12C2AE94100BBB58D /* MusicHelper.swift */,
 				84857D972C32FF9D00AB9076 /* OverlayView.swift */,
+				8416E11F2C4019E000A07598 /* PrivacyInfo.xcprivacy */,
 			);
 			path = GreatBellyfortune;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84ABF2E12C21760400E40FE7 /* LaunchScreen.storyboard in Resources */,
+				8416E1202C4019E000A07598 /* PrivacyInfo.xcprivacy in Resources */,
 				84BD7FCE2C2AE62000BBB58D /* LilitaOne-Regular.ttf in Resources */,
 				84ABF2DE2C21760400E40FE7 /* Assets.xcassets in Resources */,
 				8416E11E2C4016BB00A07598 /* codemagic.yaml in Resources */,

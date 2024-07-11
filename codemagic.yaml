@@ -5,7 +5,7 @@ workflows:
     integrations:
       app_store_connect: "corp 55"
     environment:
-      xcode: 15.0.1
+      xcode: 15.4
 
       vars:
         CERTIFICATE_PRIVATE_KEY: |
