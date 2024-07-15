@@ -37,6 +37,14 @@ class MainMenuVC: UIViewController {
         return button
     }()
     
+    let infoButton: UIButton = {
+        let button = UIButton(type: .custom)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.setImage(UIImage(named: "btn_info"), for: .normal)
+        button.imageView?.contentMode = .scaleAspectFit
+        return button
+    }()
+    
     let logoImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -94,6 +102,67 @@ class MainMenuVC: UIViewController {
             vc.modalTransitionStyle = .crossDissolve
             vc.modalPresentationStyle = .fullScreen
             self.present(vc, animated: true)
+        }, for: .touchUpInside)
+        
+        view.addSubview(infoButton)
+        NSLayoutConstraint.activate([
+            infoButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 8),
+            infoButton.rightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.rightAnchor, constant: -8),
+            infoButton.heightAnchor.constraint(equalToConstant: 40),
+            infoButton.widthAnchor.constraint(equalToConstant: 40)
+        ])
+        
+        infoButton.addAction(UIAction() {
+            _ in
+            let blurEffect = UIBlurEffect(style: UIBlurEffect.Style.dark)
+            let blurEffectView = UIVisualEffectView(effect: blurEffect)
+            blurEffectView.frame = self.view.bounds
+            blurEffectView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+            self.view.addSubview(blurEffectView)
+            let backButton: UIButton = {
+                let button = UIButton(type: .custom)
+                button.translatesAutoresizingMaskIntoConstraints = false
+                button.setImage(UIImage(named: "btn_back"), for: .normal)
+                button.imageView?.contentMode = .scaleAspectFit
+                return button
+            }()
+            
+            let infoImage: UIImageView = {
+                let infoImage = UIImageView()
+                infoImage.translatesAutoresizingMaskIntoConstraints = false
+                infoImage.image = UIImage(named: "info1")
+                infoImage.contentMode = .scaleAspectFit
+                return infoImage
+            }()
+            
+            self.view.addSubview(infoImage)
+            
+            NSLayoutConstraint.activate([
+                infoImage.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor),
+                infoImage.leftAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.leftAnchor),
+                infoImage.rightAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.rightAnchor),
+                infoImage.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor),
+            ])
+            
+            self.view.addSubview(backButton)
+            NSLayoutConstraint.activate([
+                backButton.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor),
+                backButton.leftAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.leftAnchor),
+                backButton.heightAnchor.constraint(equalToConstant: 50),
+                backButton.widthAnchor.constraint(equalToConstant: 70),
+            ])
+            backButton.addAction(UIAction() {
+                _ in
+                UIView.animate(withDuration: 0.3, animations: {
+                    backButton.alpha = 0
+                    blurEffectView.alpha = 0
+                    infoImage.alpha = 0
+                }) { _ in
+                    backButton.removeFromSuperview()
+                    blurEffectView.removeFromSuperview()
+                    infoImage.removeFromSuperview()
+                }
+            }, for: .touchUpInside)
         }, for: .touchUpInside)
         
         view.addSubview(shopButton)
